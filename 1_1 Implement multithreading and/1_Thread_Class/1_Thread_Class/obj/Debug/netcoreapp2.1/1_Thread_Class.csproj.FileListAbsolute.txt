@@ -1,0 +1,11 @@
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\bin\Debug\netcoreapp2.1\1_Thread_Class.deps.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\bin\Debug\netcoreapp2.1\1_Thread_Class.runtimeconfig.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\bin\Debug\netcoreapp2.1\1_Thread_Class.runtimeconfig.dev.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\bin\Debug\netcoreapp2.1\1_Thread_Class.dll
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\bin\Debug\netcoreapp2.1\1_Thread_Class.pdb
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\obj\Debug\netcoreapp2.1\1_Thread_Class.csprojAssemblyReference.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\obj\Debug\netcoreapp2.1\1_Thread_Class.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\obj\Debug\netcoreapp2.1\1_Thread_Class.AssemblyInfoInputs.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\obj\Debug\netcoreapp2.1\1_Thread_Class.AssemblyInfo.cs
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\obj\Debug\netcoreapp2.1\1_Thread_Class.dll
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\1_1 Implement multithreading and\1_Thread_Class\1_Thread_Class\obj\Debug\netcoreapp2.1\1_Thread_Class.pdb
