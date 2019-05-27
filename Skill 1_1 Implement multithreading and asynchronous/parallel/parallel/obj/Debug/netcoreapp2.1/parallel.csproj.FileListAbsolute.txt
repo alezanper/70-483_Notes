@@ -1,0 +1,11 @@
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\bin\Debug\netcoreapp2.1\parallel.deps.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\bin\Debug\netcoreapp2.1\parallel.runtimeconfig.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\bin\Debug\netcoreapp2.1\parallel.runtimeconfig.dev.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\bin\Debug\netcoreapp2.1\parallel.dll
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\bin\Debug\netcoreapp2.1\parallel.pdb
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\obj\Debug\netcoreapp2.1\parallel.csprojAssemblyReference.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\obj\Debug\netcoreapp2.1\parallel.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\obj\Debug\netcoreapp2.1\parallel.AssemblyInfoInputs.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\obj\Debug\netcoreapp2.1\parallel.AssemblyInfo.cs
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\obj\Debug\netcoreapp2.1\parallel.dll
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\parallel\parallel\obj\Debug\netcoreapp2.1\parallel.pdb
