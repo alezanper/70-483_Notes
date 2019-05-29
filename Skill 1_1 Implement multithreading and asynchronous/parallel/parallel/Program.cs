@@ -7,36 +7,31 @@ namespace parallel
 {
     class Program
     {
-        static void Task1()
+        static void Task(string taskName)
         {
-            Console.WriteLine("Task 1 starting");
-            Thread.Sleep(2000);
-            Console.WriteLine("Task 1 ending");
+            Console.WriteLine(taskName + " starting");
+            Thread.Sleep(500);
+            Console.WriteLine(taskName + " ending");
         }
-        static void Task2()
+ 
+        static void UsingForEach()
         {
-            Console.WriteLine("Task 2 starting");
-            Thread.Sleep(1000);
-            Console.WriteLine("Task 2 ending");
-        }
+            var items = Enumerable.Range(0, 100);
 
-        static void WorkOnItem(object item)
-        {
-            Console.WriteLine("Started working on: " + item);
-            Thread.Sleep(100);
-            Console.WriteLine("Finished working on: " + item);
+            Parallel.ForEach(items, item =>
+            {
+                Console.WriteLine("Started working on: " + item);
+                Thread.Sleep(50);
+                Console.WriteLine("Finished working on: " + item);
+            });
         }
 
         static void Main(string[] args)
         {
-            var items = Enumerable.Range(0, 500);
-            Parallel.ForEach(items, item =>
-            {
-                WorkOnItem(item);
-            });
+            UsingForEach();
 
-            Parallel.Invoke(() => Task1(), () => Task2());
-            Console.WriteLine("Finished processing. Press a key to end.");
+            Parallel.Invoke(() => Task("Task 1"), () => Task("Task 2"));
+
             Console.ReadKey();
         }
     }
