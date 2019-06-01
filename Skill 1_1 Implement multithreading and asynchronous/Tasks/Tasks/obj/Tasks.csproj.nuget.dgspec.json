@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alexander\\OneDrive - Universidad de Los Andes\\GitHub\\70-483 Notes\\Skill 1_1 Implement multithreading and asynchronous\\Tasks\\Tasks\\Tasks.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alexander\\OneDrive - Universidad de Los Andes\\GitHub\\70-483 Notes\\Skill 1_1 Implement multithreading and asynchronous\\Tasks\\Tasks\\Tasks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alexander\\OneDrive - Universidad de Los Andes\\GitHub\\70-483 Notes\\Skill 1_1 Implement multithreading and asynchronous\\Tasks\\Tasks\\Tasks.csproj",
+        "projectName": "Tasks",
+        "projectPath": "C:\\Users\\Alexander\\OneDrive - Universidad de Los Andes\\GitHub\\70-483 Notes\\Skill 1_1 Implement multithreading and asynchronous\\Tasks\\Tasks\\Tasks.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander\\OneDrive - Universidad de Los Andes\\GitHub\\70-483 Notes\\Skill 1_1 Implement multithreading and asynchronous\\Tasks\\Tasks\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

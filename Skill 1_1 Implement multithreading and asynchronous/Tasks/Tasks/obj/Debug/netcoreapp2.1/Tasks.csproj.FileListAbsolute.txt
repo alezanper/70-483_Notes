@@ -1,0 +1,11 @@
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\bin\Debug\netcoreapp2.1\Tasks.deps.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\bin\Debug\netcoreapp2.1\Tasks.runtimeconfig.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\bin\Debug\netcoreapp2.1\Tasks.runtimeconfig.dev.json
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\bin\Debug\netcoreapp2.1\Tasks.dll
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\bin\Debug\netcoreapp2.1\Tasks.pdb
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\obj\Debug\netcoreapp2.1\Tasks.csprojAssemblyReference.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\obj\Debug\netcoreapp2.1\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\obj\Debug\netcoreapp2.1\Tasks.AssemblyInfoInputs.cache
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\obj\Debug\netcoreapp2.1\Tasks.AssemblyInfo.cs
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\obj\Debug\netcoreapp2.1\Tasks.dll
+C:\Users\Alexander\OneDrive - Universidad de Los Andes\GitHub\70-483 Notes\Skill 1_1 Implement multithreading and asynchronous\Tasks\Tasks\obj\Debug\netcoreapp2.1\Tasks.pdb
