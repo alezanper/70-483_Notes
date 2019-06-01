@@ -7,10 +7,12 @@ namespace parallel
 {
     class Program
     {
-        class Task
+        class Process
         {
             public string Name { get; set; }
             public int Time { get; set; }
+
+            public int Priority { get; set; }
 
             public void Launch()
             {
@@ -20,48 +22,48 @@ namespace parallel
             }
         }
 
-        static Task[] tasks = new Task[]
+        static Process[] processes = new Process[]
             {
-                new Task { Name = "Task 1", Time = 500},
-                new Task { Name = "Task 2", Time = 500},
-                new Task { Name = "Task 3", Time = 500},
-                new Task { Name = "Task 4", Time = 500},
-                new Task { Name = "Task 5", Time = 500},
-                new Task { Name = "Task 6", Time = 500},
-                new Task { Name = "Task 7", Time = 500},
-                new Task { Name = "Task 8", Time = 500},
-                new Task { Name = "Task 9", Time = 500},
-                new Task { Name = "Task 10", Time = 500}
+                new Process { Name = "Process 1", Time = 300, Priority = 1},
+                new Process { Name = "Process 2", Time = 100, Priority = 1},
+                new Process { Name = "Process 3", Time = 500, Priority = 2},
+                new Process { Name = "Process 4", Time = 500, Priority = 3},
+                new Process { Name = "Process 5", Time = 100, Priority = 1},
+                new Process { Name = "Process 6", Time = 500, Priority = 2},
+                new Process { Name = "Process 7", Time = 200, Priority = 3},
+                new Process { Name = "Process 8", Time = 100, Priority = 1},
+                new Process { Name = "Process 9", Time = 200, Priority = 2},
+                new Process { Name = "Process 10", Time = 100, Priority = 3},
             };
 
         static void SimpleInvoke()
         {
-            Parallel.Invoke(() => tasks[0].Launch(), () => tasks[1].Launch());
+            Parallel.Invoke(() => processes[0].Launch(), () => processes[1].Launch());
         }
 
         static void UsingForEach()
         {        
-            Parallel.ForEach(tasks, task =>
+            Parallel.ForEach(processes, process =>
             {
-                task.Launch();
+                process.Launch();
             });
         }
 
         static void UsingFor()
         {
-            Parallel.For(0, tasks.Length, i =>
+            Parallel.For(0, processes.Length, i =>
             {
-                tasks[i].Launch();
+                processes[i].Launch();
             });
         }
 
         static void ControlLoop()
         {
-            ParallelLoopResult result = Parallel.For(0, tasks.Count(), (int i, ParallelLoopState loopState) =>
+            ParallelLoopResult result = Parallel.For(0, processes.Count(), (int i, ParallelLoopState loopState) =>
             {
                 if (i == 2)
                     loopState.Stop();
-                tasks[i].Launch();
+                processes[i].Launch();
             });
 
             Console.WriteLine("Completed: " + result.IsCompleted);
@@ -69,15 +71,23 @@ namespace parallel
 
         static void UsingLinq()
         {
-            var result = from task in tasks.AsParallel()
-                             //.AsOrdered()     Para 
-                             //.WithDegreeOfParallelism(4)
-                             //.WithExecutionMode(ParallelExecutionMode.ForceParallelism)
-                         where task.Name.Equals("Task 6")
-                         select task;
+            try
+            {
+                var result = (from proc in processes.AsParallel()
+                         .AsOrdered()
+                                  //.WithDegreeOfParallelism(4)
+                                  //.WithExecutionMode(ParallelExecutionMode.ForceParallelism)
+                              where proc.Priority == 1
+                              select proc).AsSequential().Take(3);
 
-            foreach (var task in result)
-                Console.WriteLine(task.Name);
+                foreach (var task in result)
+                    Console.WriteLine(task.Name);
+            }
+            catch (Exception e)
+            {
+
+            }
+            
         }
 
         static void Main(string[] args)
