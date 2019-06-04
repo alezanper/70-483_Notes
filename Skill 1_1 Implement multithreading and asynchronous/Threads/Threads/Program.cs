@@ -56,12 +56,36 @@ namespace Threads
             //myThread.Abort();
             Console.ReadKey();
         }
+
+        static void UsingJoin()
+        {
+            Thread myThread1 = new Thread(() =>
+            {
+                Console.WriteLine("Thread 1 processing");
+                Thread.Sleep(1000);
+                Console.WriteLine("Thread 1 finished");
+            });
+
+            Thread myThread2 = new Thread(() =>
+            {
+                Console.WriteLine("Thread 2 processing");
+                Thread.Sleep(1000);
+                Console.WriteLine("Thread 2 finished");
+            });
+
+            //Allow to synchronize two threads
+            myThread1.Start();
+            myThread1.Join();
+            myThread2.Start();
+        }
+
         static void Main(string[] args)
         {
             UsingThreads();
             UsingLambdaWithThreads();
             PassingDataToThreads();
             AbortingThreads();
+            UsingJoin();
             Console.ReadKey();
         }
     }
